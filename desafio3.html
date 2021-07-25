@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Desafio 3</title>
+    <style media="screen" type="text/css">
+
+    body {
+    margin: 50px;
+    }
+
+    p {
+    position: absolute;
+    top: 250px;
+    left: 155px;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .espana {
+        border: 1px solid black;
+        background-color: red;
+        width: 400px;
+        height: 250px;
+        margin: 35px;
+        position: relative;
+        
+    }
+
+    .espana-amarillo {
+        background-color: yellow;
+        width: 100%;
+        height: 100px;
+        position: absolute;
+        top: 75px;  
+        
+    }
+
+
+    .dinamarca {
+        border: 1px solid black;
+        background-color: red;
+        width: 400px;
+        height: 250px;
+        margin: 35px;
+        position: relative;
+        
+    }
+
+    .dinamarca-blanco-hor {
+        background-color: white;
+        width: 100%;
+        height: 30px;
+        position: absolute;
+        top: 100px;  
+        
+    }
+
+    .dinamarca-blanco-ver {
+        background-color: white;
+        width: 30px;
+        height: 100%;
+        position: absolute;
+        left: 90px;  
+    }
+
+    .emiratos {
+        border: 1px solid black;
+        background-color: red;
+        width: 400px;
+        height: 250px;
+        margin: 35px;
+        position: relative;
+        
+    }
+
+    .emiratos-verde {
+        background-color: rgb(27, 143, 27);
+        width: 75%;
+        height: 33%;
+        position: absolute;
+        left: 100px;
+        z-index: 3;
+        
+    }
+
+    .emiratos-blanco {
+        background-color: white;
+        width: 75%;
+        height: 66%;
+        position: absolute;
+        left: 100px;
+        z-index: 2;
+        
+    }
+
+    .emiratos-negro {
+        background-color: black;
+        width: 75%;
+        height: 100%;
+        position: absolute;
+        left: 100px;
+        z-index: 1;
+    }
+
+
+    .japon {
+        border: 1px solid black;
+        background-color: white;
+        width: 400px;
+        height: 250px;
+        margin: 35px;
+        position: relative;
+        
+    }
+
+    .japon-rojo {
+        background-color: red;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        position: absolute;
+        top: 75px;
+        left: 150px;
+        
+    }
+    </style>
+    </head>
+    <body>
+        <div class="box">
+            <div class="espana">
+                <div class="espana-amarillo"></div>
+                <p>España</p>
+                
+            </div>
+            
+
+
+            <div class="dinamarca">
+                <div class="dinamarca-blanco-hor"></div>
+                <div class="dinamarca-blanco-ver"></div>
+                <p>Dinamarca</p>
+
+        </div>
+        
+        
+        <div class="box">
+            <div class="emiratos">
+                <div class="emiratos-verde"></div>
+                <div class="emiratos-blanco"></div>
+                <div class="emiratos-negro"></div>
+                <p>Emiratos Árabes</p>
+            </div>
+        
+        
+        
+            <div class="japon">
+                <div class="japon-rojo"></div>
+                <p>Japón</p>
+        
+            </div>
+        
+    </body>
+</html>
